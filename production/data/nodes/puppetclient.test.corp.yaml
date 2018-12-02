@@ -1,0 +1,5 @@
+# /etc/puppetlabs/code/environments/production/data/nodes/puppetclient.test.corp.yaml
+
+---
+profile::hiera_test::ssl: false
+profile::hiera_test::site_alias: ci.example.com

@@ -1,0 +1,7 @@
+# /etc/puppetlabs/code/environments/production/data/common.yaml
+
+---
+profile::hiera_test::ssl: false
+profile::hiera_test::backups_enabled: true
+profile::hiera_test::memory: "%{facts.memory.system.total}"
+profile::motd::motd_message: "Welcome to this server.. Content from common.yaml. Using motd forge module.\n"

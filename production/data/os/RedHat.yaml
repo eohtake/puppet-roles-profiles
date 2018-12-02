@@ -1,0 +1,5 @@
+# /etc/puppetlabs/code/environments/production/data/os/RedHat.yaml
+
+---
+profile::hiera_test::backups_enabled: false
+profile::hiera_test::sou_redhat: "claro que sim"
